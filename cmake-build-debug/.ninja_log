@@ -1,0 +1,9 @@
+# ninja log v5
+1	6784	7223871675781669	CMakeFiles/IO.dir/Input_Output/input_ouput.cpp.obj	ed80b47faca5e2c6
+6805	7567	7223871683883560	IO.exe	60e43003c1c24ead
+19	3934	7223873088470005	CMakeFiles/IO.dir/Input_Output/input_ouput.cpp.obj	ed80b47faca5e2c6
+3937	4735	7223873095993925	IO.exe	60e43003c1c24ead
+11	1269	7223874353168749	CMakeFiles/IO.dir/Input_Output/input_ouput.cpp.obj	ed80b47faca5e2c6
+1271	1574	7223874356154065	IO.exe	60e43003c1c24ead
+13	1242	7223874787476079	CMakeFiles/IO.dir/Input_Output/input_ouput.cpp.obj	ed80b47faca5e2c6
+1244	1522	7223874790222522	IO.exe	60e43003c1c24ead
