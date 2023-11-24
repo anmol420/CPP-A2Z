@@ -73,6 +73,39 @@ build IO.exe: CXX_EXECUTABLE_LINKER__IO_Debug CMakeFiles/IO.dir/Input_Output/inp
   TARGET_IMPLIB = libIO.dll.a
   TARGET_PDB = IO.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DATATYPES
+
+
+#############################################
+# Order-only phony target for DATATYPES
+
+build cmake_object_order_depends_target_DATATYPES: phony || CMakeFiles/DATATYPES.dir
+
+build CMakeFiles/DATATYPES.dir/DataTypes/datatypes.cpp.obj: CXX_COMPILER__DATATYPES_unscanned_Debug D$:/CPP-Programs/DataTypes/datatypes.cpp || cmake_object_order_depends_target_DATATYPES
+  DEP_FILE = CMakeFiles\DATATYPES.dir\DataTypes\datatypes.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DATATYPES.dir
+  OBJECT_FILE_DIR = CMakeFiles\DATATYPES.dir\DataTypes
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DATATYPES
+
+
+#############################################
+# Link the executable DATATYPES.exe
+
+build DATATYPES.exe: CXX_EXECUTABLE_LINKER__DATATYPES_Debug CMakeFiles/DATATYPES.dir/DataTypes/datatypes.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DATATYPES.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DATATYPES.exe
+  TARGET_IMPLIB = libDATATYPES.dll.a
+  TARGET_PDB = DATATYPES.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -99,6 +132,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build DATATYPES: phony DATATYPES.exe
+
 build IO: phony IO.exe
 
 # =============================================================================
@@ -109,7 +144,7 @@ build IO: phony IO.exe
 #############################################
 # Folder: D:/CPP-Programs/cmake-build-debug
 
-build all: phony IO.exe
+build all: phony IO.exe DATATYPES.exe
 
 # =============================================================================
 # Built-in targets

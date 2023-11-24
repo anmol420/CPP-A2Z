@@ -1,9 +1,6 @@
 # ninja log v5
-1	6784	7223871675781669	CMakeFiles/IO.dir/Input_Output/input_ouput.cpp.obj	ed80b47faca5e2c6
-6805	7567	7223871683883560	IO.exe	60e43003c1c24ead
-19	3934	7223873088470005	CMakeFiles/IO.dir/Input_Output/input_ouput.cpp.obj	ed80b47faca5e2c6
-3937	4735	7223873095993925	IO.exe	60e43003c1c24ead
-11	1269	7223874353168749	CMakeFiles/IO.dir/Input_Output/input_ouput.cpp.obj	ed80b47faca5e2c6
-1271	1574	7223874356154065	IO.exe	60e43003c1c24ead
-13	1242	7223874787476079	CMakeFiles/IO.dir/Input_Output/input_ouput.cpp.obj	ed80b47faca5e2c6
-1244	1522	7223874790222522	IO.exe	60e43003c1c24ead
+14	5709	7225322327682651	CMakeFiles/IO.dir/Input_Output/input_ouput.cpp.obj	ed80b47faca5e2c6
+5719	6329	7225322333819667	IO.exe	60e43003c1c24ead
+5289	5576	7225322541125474	DATATYPES.exe	f17cd2dab2bfbc2a
+1	5288	7225322538295083	CMakeFiles/DATATYPES.dir/DataTypes/datatypes.cpp.obj	51e176600b415c41
+2	968	7225323216769872	build.ninja	d68f2990dac7339
