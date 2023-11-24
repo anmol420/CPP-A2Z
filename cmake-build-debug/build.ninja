@@ -106,6 +106,39 @@ build DATATYPES.exe: CXX_EXECUTABLE_LINKER__DATATYPES_Debug CMakeFiles/DATATYPES
   TARGET_IMPLIB = libDATATYPES.dll.a
   TARGET_PDB = DATATYPES.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target IFELSE
+
+
+#############################################
+# Order-only phony target for IFELSE
+
+build cmake_object_order_depends_target_IFELSE: phony || CMakeFiles/IFELSE.dir
+
+build CMakeFiles/IFELSE.dir/If_Else/ifelse_app.cpp.obj: CXX_COMPILER__IFELSE_unscanned_Debug D$:/CPP-Programs/If_Else/ifelse_app.cpp || cmake_object_order_depends_target_IFELSE
+  DEP_FILE = CMakeFiles\IFELSE.dir\If_Else\ifelse_app.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\IFELSE.dir
+  OBJECT_FILE_DIR = CMakeFiles\IFELSE.dir\If_Else
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IFELSE
+
+
+#############################################
+# Link the executable IFELSE.exe
+
+build IFELSE.exe: CXX_EXECUTABLE_LINKER__IFELSE_Debug CMakeFiles/IFELSE.dir/If_Else/ifelse_app.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\IFELSE.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = IFELSE.exe
+  TARGET_IMPLIB = libIFELSE.dll.a
+  TARGET_PDB = IFELSE.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -134,6 +167,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build DATATYPES: phony DATATYPES.exe
 
+build IFELSE: phony IFELSE.exe
+
 build IO: phony IO.exe
 
 # =============================================================================
@@ -144,7 +179,7 @@ build IO: phony IO.exe
 #############################################
 # Folder: D:/CPP-Programs/cmake-build-debug
 
-build all: phony IO.exe DATATYPES.exe
+build all: phony IO.exe DATATYPES.exe IFELSE.exe
 
 # =============================================================================
 # Built-in targets
