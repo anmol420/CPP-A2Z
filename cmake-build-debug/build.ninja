@@ -49,11 +49,11 @@ cmake_ninja_workdir = D$:/CPP-Programs/cmake-build-debug/
 
 build cmake_object_order_depends_target_IO: phony || CMakeFiles/IO.dir
 
-build CMakeFiles/IO.dir/Input_Output/input_ouput.cpp.obj: CXX_COMPILER__IO_unscanned_Debug D$:/CPP-Programs/Input_Output/input_ouput.cpp || cmake_object_order_depends_target_IO
-  DEP_FILE = CMakeFiles\IO.dir\Input_Output\input_ouput.cpp.obj.d
+build CMakeFiles/IO.dir/01_Input_Output/input_ouput.cpp.obj: CXX_COMPILER__IO_unscanned_Debug D$:/CPP-Programs/01_Input_Output/input_ouput.cpp || cmake_object_order_depends_target_IO
+  DEP_FILE = CMakeFiles\IO.dir\01_Input_Output\input_ouput.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\IO.dir
-  OBJECT_FILE_DIR = CMakeFiles\IO.dir\Input_Output
+  OBJECT_FILE_DIR = CMakeFiles\IO.dir\01_Input_Output
 
 
 # =============================================================================
@@ -63,7 +63,7 @@ build CMakeFiles/IO.dir/Input_Output/input_ouput.cpp.obj: CXX_COMPILER__IO_unsca
 #############################################
 # Link the executable IO.exe
 
-build IO.exe: CXX_EXECUTABLE_LINKER__IO_Debug CMakeFiles/IO.dir/Input_Output/input_ouput.cpp.obj
+build IO.exe: CXX_EXECUTABLE_LINKER__IO_Debug CMakeFiles/IO.dir/01_Input_Output/input_ouput.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\IO.dir
@@ -82,11 +82,11 @@ build IO.exe: CXX_EXECUTABLE_LINKER__IO_Debug CMakeFiles/IO.dir/Input_Output/inp
 
 build cmake_object_order_depends_target_DATATYPES: phony || CMakeFiles/DATATYPES.dir
 
-build CMakeFiles/DATATYPES.dir/DataTypes/datatypes.cpp.obj: CXX_COMPILER__DATATYPES_unscanned_Debug D$:/CPP-Programs/DataTypes/datatypes.cpp || cmake_object_order_depends_target_DATATYPES
-  DEP_FILE = CMakeFiles\DATATYPES.dir\DataTypes\datatypes.cpp.obj.d
+build CMakeFiles/DATATYPES.dir/02_DataTypes/datatypes.cpp.obj: CXX_COMPILER__DATATYPES_unscanned_Debug D$:/CPP-Programs/02_DataTypes/datatypes.cpp || cmake_object_order_depends_target_DATATYPES
+  DEP_FILE = CMakeFiles\DATATYPES.dir\02_DataTypes\datatypes.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DATATYPES.dir
-  OBJECT_FILE_DIR = CMakeFiles\DATATYPES.dir\DataTypes
+  OBJECT_FILE_DIR = CMakeFiles\DATATYPES.dir\02_DataTypes
 
 
 # =============================================================================
@@ -96,7 +96,7 @@ build CMakeFiles/DATATYPES.dir/DataTypes/datatypes.cpp.obj: CXX_COMPILER__DATATY
 #############################################
 # Link the executable DATATYPES.exe
 
-build DATATYPES.exe: CXX_EXECUTABLE_LINKER__DATATYPES_Debug CMakeFiles/DATATYPES.dir/DataTypes/datatypes.cpp.obj
+build DATATYPES.exe: CXX_EXECUTABLE_LINKER__DATATYPES_Debug CMakeFiles/DATATYPES.dir/02_DataTypes/datatypes.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DATATYPES.dir
@@ -115,11 +115,11 @@ build DATATYPES.exe: CXX_EXECUTABLE_LINKER__DATATYPES_Debug CMakeFiles/DATATYPES
 
 build cmake_object_order_depends_target_IFELSE: phony || CMakeFiles/IFELSE.dir
 
-build CMakeFiles/IFELSE.dir/If_Else/ifelse_app.cpp.obj: CXX_COMPILER__IFELSE_unscanned_Debug D$:/CPP-Programs/If_Else/ifelse_app.cpp || cmake_object_order_depends_target_IFELSE
-  DEP_FILE = CMakeFiles\IFELSE.dir\If_Else\ifelse_app.cpp.obj.d
+build CMakeFiles/IFELSE.dir/03_If_Else/ifelse_app.cpp.obj: CXX_COMPILER__IFELSE_unscanned_Debug D$:/CPP-Programs/03_If_Else/ifelse_app.cpp || cmake_object_order_depends_target_IFELSE
+  DEP_FILE = CMakeFiles\IFELSE.dir\03_If_Else\ifelse_app.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\IFELSE.dir
-  OBJECT_FILE_DIR = CMakeFiles\IFELSE.dir\If_Else
+  OBJECT_FILE_DIR = CMakeFiles\IFELSE.dir\03_If_Else
 
 
 # =============================================================================
@@ -129,7 +129,7 @@ build CMakeFiles/IFELSE.dir/If_Else/ifelse_app.cpp.obj: CXX_COMPILER__IFELSE_uns
 #############################################
 # Link the executable IFELSE.exe
 
-build IFELSE.exe: CXX_EXECUTABLE_LINKER__IFELSE_Debug CMakeFiles/IFELSE.dir/If_Else/ifelse_app.cpp.obj
+build IFELSE.exe: CXX_EXECUTABLE_LINKER__IFELSE_Debug CMakeFiles/IFELSE.dir/03_If_Else/ifelse_app.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\IFELSE.dir
@@ -138,6 +138,72 @@ build IFELSE.exe: CXX_EXECUTABLE_LINKER__IFELSE_Debug CMakeFiles/IFELSE.dir/If_E
   TARGET_FILE = IFELSE.exe
   TARGET_IMPLIB = libIFELSE.dll.a
   TARGET_PDB = IFELSE.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RETURNABLE
+
+
+#############################################
+# Order-only phony target for RETURNABLE
+
+build cmake_object_order_depends_target_RETURNABLE: phony || CMakeFiles/RETURNABLE.dir
+
+build CMakeFiles/RETURNABLE.dir/04_Functions/returnable.cpp.obj: CXX_COMPILER__RETURNABLE_unscanned_Debug D$:/CPP-Programs/04_Functions/returnable.cpp || cmake_object_order_depends_target_RETURNABLE
+  DEP_FILE = CMakeFiles\RETURNABLE.dir\04_Functions\returnable.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RETURNABLE.dir
+  OBJECT_FILE_DIR = CMakeFiles\RETURNABLE.dir\04_Functions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RETURNABLE
+
+
+#############################################
+# Link the executable RETURNABLE.exe
+
+build RETURNABLE.exe: CXX_EXECUTABLE_LINKER__RETURNABLE_Debug CMakeFiles/RETURNABLE.dir/04_Functions/returnable.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RETURNABLE.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RETURNABLE.exe
+  TARGET_IMPLIB = libRETURNABLE.dll.a
+  TARGET_PDB = RETURNABLE.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NON_RETURNABLE
+
+
+#############################################
+# Order-only phony target for NON_RETURNABLE
+
+build cmake_object_order_depends_target_NON_RETURNABLE: phony || CMakeFiles/NON_RETURNABLE.dir
+
+build CMakeFiles/NON_RETURNABLE.dir/04_Functions/non_returnable.cpp.obj: CXX_COMPILER__NON_RETURNABLE_unscanned_Debug D$:/CPP-Programs/04_Functions/non_returnable.cpp || cmake_object_order_depends_target_NON_RETURNABLE
+  DEP_FILE = CMakeFiles\NON_RETURNABLE.dir\04_Functions\non_returnable.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\NON_RETURNABLE.dir
+  OBJECT_FILE_DIR = CMakeFiles\NON_RETURNABLE.dir\04_Functions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NON_RETURNABLE
+
+
+#############################################
+# Link the executable NON_RETURNABLE.exe
+
+build NON_RETURNABLE.exe: CXX_EXECUTABLE_LINKER__NON_RETURNABLE_Debug CMakeFiles/NON_RETURNABLE.dir/04_Functions/non_returnable.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NON_RETURNABLE.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NON_RETURNABLE.exe
+  TARGET_IMPLIB = libNON_RETURNABLE.dll.a
+  TARGET_PDB = NON_RETURNABLE.exe.dbg
 
 
 #############################################
@@ -171,6 +237,10 @@ build IFELSE: phony IFELSE.exe
 
 build IO: phony IO.exe
 
+build NON_RETURNABLE: phony NON_RETURNABLE.exe
+
+build RETURNABLE: phony RETURNABLE.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -179,7 +249,7 @@ build IO: phony IO.exe
 #############################################
 # Folder: D:/CPP-Programs/cmake-build-debug
 
-build all: phony IO.exe DATATYPES.exe IFELSE.exe
+build all: phony IO.exe DATATYPES.exe IFELSE.exe RETURNABLE.exe NON_RETURNABLE.exe
 
 # =============================================================================
 # Built-in targets
