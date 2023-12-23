@@ -364,6 +364,99 @@ build PATTERNS.exe: CXX_EXECUTABLE_LINKER__PATTERNS_Debug CMakeFiles/PATTERNS.di
   TARGET_IMPLIB = libPATTERNS.dll.a
   TARGET_PDB = PATTERNS.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target STL
+
+
+#############################################
+# Order-only phony target for STL
+
+build cmake_object_order_depends_target_STL: phony || CMakeFiles/STL.dir
+
+build CMakeFiles/STL.dir/06_CPP-STL/pairs.cpp.obj: CXX_COMPILER__STL_unscanned_Debug D$:/CPP-Programs/06_CPP-STL/pairs.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\06_CPP-STL\pairs.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir\06_CPP-STL
+
+build CMakeFiles/STL.dir/06_CPP-STL/vectors.cpp.obj: CXX_COMPILER__STL_unscanned_Debug D$:/CPP-Programs/06_CPP-STL/vectors.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\06_CPP-STL\vectors.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir\06_CPP-STL
+
+build CMakeFiles/STL.dir/06_CPP-STL/lists.cpp.obj: CXX_COMPILER__STL_unscanned_Debug D$:/CPP-Programs/06_CPP-STL/lists.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\06_CPP-STL\lists.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir\06_CPP-STL
+
+build CMakeFiles/STL.dir/06_CPP-STL/dques.cpp.obj: CXX_COMPILER__STL_unscanned_Debug D$:/CPP-Programs/06_CPP-STL/dques.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\06_CPP-STL\dques.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir\06_CPP-STL
+
+build CMakeFiles/STL.dir/06_CPP-STL/stacks.cpp.obj: CXX_COMPILER__STL_unscanned_Debug D$:/CPP-Programs/06_CPP-STL/stacks.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\06_CPP-STL\stacks.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir\06_CPP-STL
+
+build CMakeFiles/STL.dir/06_CPP-STL/queues.cpp.obj: CXX_COMPILER__STL_unscanned_Debug D$:/CPP-Programs/06_CPP-STL/queues.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\06_CPP-STL\queues.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir\06_CPP-STL
+
+build CMakeFiles/STL.dir/06_CPP-STL/priority_queues.cpp.obj: CXX_COMPILER__STL_unscanned_Debug D$:/CPP-Programs/06_CPP-STL/priority_queues.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\06_CPP-STL\priority_queues.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir\06_CPP-STL
+
+build CMakeFiles/STL.dir/06_CPP-STL/set.cpp.obj: CXX_COMPILER__STL_unscanned_Debug D$:/CPP-Programs/06_CPP-STL/set.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\06_CPP-STL\set.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir\06_CPP-STL
+
+build CMakeFiles/STL.dir/06_CPP-STL/multi_set.cpp.obj: CXX_COMPILER__STL_unscanned_Debug D$:/CPP-Programs/06_CPP-STL/multi_set.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\06_CPP-STL\multi_set.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir\06_CPP-STL
+
+build CMakeFiles/STL.dir/06_CPP-STL/unordered_set.cpp.obj: CXX_COMPILER__STL_unscanned_Debug D$:/CPP-Programs/06_CPP-STL/unordered_set.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\06_CPP-STL\unordered_set.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir\06_CPP-STL
+
+build CMakeFiles/STL.dir/06_CPP-STL/map.cpp.obj: CXX_COMPILER__STL_unscanned_Debug D$:/CPP-Programs/06_CPP-STL/map.cpp || cmake_object_order_depends_target_STL
+  DEP_FILE = CMakeFiles\STL.dir\06_CPP-STL\map.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\STL.dir
+  OBJECT_FILE_DIR = CMakeFiles\STL.dir\06_CPP-STL
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target STL
+
+
+#############################################
+# Link the executable STL.exe
+
+build STL.exe: CXX_EXECUTABLE_LINKER__STL_Debug CMakeFiles/STL.dir/06_CPP-STL/pairs.cpp.obj CMakeFiles/STL.dir/06_CPP-STL/vectors.cpp.obj CMakeFiles/STL.dir/06_CPP-STL/lists.cpp.obj CMakeFiles/STL.dir/06_CPP-STL/dques.cpp.obj CMakeFiles/STL.dir/06_CPP-STL/stacks.cpp.obj CMakeFiles/STL.dir/06_CPP-STL/queues.cpp.obj CMakeFiles/STL.dir/06_CPP-STL/priority_queues.cpp.obj CMakeFiles/STL.dir/06_CPP-STL/set.cpp.obj CMakeFiles/STL.dir/06_CPP-STL/multi_set.cpp.obj CMakeFiles/STL.dir/06_CPP-STL/unordered_set.cpp.obj CMakeFiles/STL.dir/06_CPP-STL/map.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\STL.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = STL.exe
+  TARGET_IMPLIB = libSTL.dll.a
+  TARGET_PDB = STL.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -402,6 +495,8 @@ build PATTERNS: phony PATTERNS.exe
 
 build RETURNABLE: phony RETURNABLE.exe
 
+build STL: phony STL.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -410,7 +505,7 @@ build RETURNABLE: phony RETURNABLE.exe
 #############################################
 # Folder: D:/CPP-Programs/cmake-build-debug
 
-build all: phony IO.exe DATATYPES.exe IFELSE.exe RETURNABLE.exe NON_RETURNABLE.exe PATTERNS.exe
+build all: phony IO.exe DATATYPES.exe IFELSE.exe RETURNABLE.exe NON_RETURNABLE.exe PATTERNS.exe STL.exe
 
 # =============================================================================
 # Built-in targets

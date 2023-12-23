@@ -31,3 +31,14 @@ add_executable(PATTERNS 05_Patterns/pattern_1.cpp
         05_Patterns/pattern_21.cpp
         05_Patterns/pattern_22.cpp
 )
+add_executable(STL 06_CPP-STL/pairs.cpp
+        06_CPP-STL/vectors.cpp
+        06_CPP-STL/lists.cpp
+        06_CPP-STL/dques.cpp
+        06_CPP-STL/stacks.cpp
+        06_CPP-STL/queues.cpp
+        06_CPP-STL/priority_queues.cpp
+        06_CPP-STL/set.cpp
+        06_CPP-STL/multi_set.cpp
+        06_CPP-STL/unordered_set.cpp
+        06_CPP-STL/map.cpp)
