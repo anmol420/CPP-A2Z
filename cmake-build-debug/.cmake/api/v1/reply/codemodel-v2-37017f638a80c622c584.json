@@ -19,7 +19,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -38,7 +39,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -74,6 +76,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "PATTERNS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PATTERNS-Debug-875176c4c7ff829b2a56.json",
+					"name" : "PATTERNS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "RETURNABLE::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-RETURNABLE-Debug-87d2a71e82e5b01ea407.json",
 					"name" : "RETURNABLE",
@@ -91,6 +100,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 5
+		"minor" : 6
 	}
 }
